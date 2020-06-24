@@ -1,3 +1,6 @@
+
+#####DATA CLEANING SECTION#####
+
 setwd("~/Big Data Module/03 - Data Modelling (Clustering)/Project #1")
 
 library(ggplot2)
@@ -27,6 +30,9 @@ synthetic <- cSplit(synthetic, "A", " ")
 
 names(synthetic)[1] <- "A"
 names(synthetic)[2] <- "B"
+
+#####ANALYSIS OF CLUSTER POINTS#####
+
 
 #Now I will plot to see the density of points before finding clusters
 
